@@ -19,6 +19,7 @@ body {
     justify-content: space-between;
     padding-top: 50px;
 
+
 }
 
 .j3 {
@@ -35,6 +36,11 @@ body {
 
 .nav-part p {
     padding-left: 50px;
+}
+
+.nav-part a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Brand New part */

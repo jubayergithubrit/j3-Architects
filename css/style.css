@@ -1,0 +1,53 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+.main-bg {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.j3 {
+    margin-left: 200px;
+}
+
+.nav-part {
+    display: flex;
+    font-size: 20px;
+    margin-right: 200px;
+
+}
+
+.nav-part p {
+    padding-left: 50px;
+}
+
+/* Brand New part */
+.brand-new {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.brand-new h1 {
+    font-size: 50px;
+
+}
+
+.explore-btn {
+    font-size: 15px;
+    padding: 15px 30px;
+    margin-bottom: 40px;
+}
+
+.banner {
+    margin-left: 15%;
+    margin-right: 15%;
+}

@@ -4,13 +4,20 @@ body {
     margin: 0;
 }
 
+* {
+    margin: 0;
+}
+
 .main-bg {
     background-color: rgba(255, 144, 14, 0.1);
+    padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .top-header {
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
 
 }
 
@@ -38,16 +45,26 @@ body {
 
 .brand-new h1 {
     font-size: 50px;
+    margin-bottom: 20px;
 
 }
 
 .explore-btn {
     font-size: 15px;
-    padding: 15px 30px;
+    color: white;
+    background-color: #FF900E;
+    padding: 18px 30px;
+    margin-top: 40px;
     margin-bottom: 40px;
+    border-style: none;
+    border-radius: 7px;
+
 }
 
 .banner {
-    margin-left: 15%;
-    margin-right: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-bottom: 20px;
 }

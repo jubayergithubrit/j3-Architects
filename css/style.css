@@ -9,7 +9,7 @@ body {
 }
 
 .main-bg {
-    background-color: rgba(255, 144, 14, 0.1);
+    background-color: rgba(38, 213, 114, 0.404);
     padding-bottom: 30px;
     margin-bottom: 50px;
 }
@@ -23,6 +23,7 @@ body {
 
 .j3 {
     margin-left: 200px;
+    font-size: 40px;
 }
 
 .nav-part {
@@ -51,6 +52,7 @@ body {
 
 .explore-btn {
     font-size: 15px;
+    font-weight: 700;
     color: white;
     background-color: #FF900E;
     padding: 18px 30px;
@@ -67,4 +69,175 @@ body {
     margin-right: auto;
     width: 75%;
     margin-bottom: 20px;
+}
+
+/* Quick list section  */
+.quick-list-section {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 50px;
+}
+
+.teams {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 20px;
+}
+
+.quick-title {
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+.quick-title h1 {
+    font-size: 40px;
+}
+
+.quick-title p {
+    margin-top: 22px;
+}
+
+.quick-list {
+    color: #727272;
+}
+
+.feature-clr {
+    color: #FF900E;
+}
+
+/* Features section  */
+.features-section {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.features {
+    padding-right: 50px;
+    padding-top: 60px;
+}
+
+.features h1 {
+    font-size: 50px;
+}
+
+.features p {
+    margin: 30px 0px;
+}
+
+.feature-item {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.feature-img {
+    padding-left: 80px;
+    position: relative;
+
+}
+
+#architect-img {
+    height: 90%;
+}
+
+.ten-year {
+    color: white;
+    background-color: #FF900E;
+    padding: 50px;
+    position: absolute;
+    top: 950px;
+    left: 1px;
+    border-radius: 10px;
+}
+
+.ten-year h1 {
+    font-size: 50px;
+}
+
+/* Some Facts */
+.facts {
+    margin-left: 180px;
+    margin-bottom: 80px;
+}
+
+.facts h1 {
+    font-size: 40px;
+}
+
+.facts p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tasks {
+    display: grid;
+    grid-template-columns: repeat(4, 30px);
+    justify-content: space-evenly;
+
+}
+
+
+.task-item {
+    border: 1px solid #FF900E;
+    border-radius: 7px;
+    padding: 50px 90px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 1s ease-in-out;
+}
+
+.task-item:hover {
+    transform: rotate(360deg);
+    background-color: rgba(38, 213, 114, 0.404);
+}
+
+.task-item h2 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.task-item p {
+    color: #727272;
+    font-weight: 700;
+}
+
+/* sponsors */
+.sponsors {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.sponsors h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.sponsor-grp {
+    display: grid;
+    grid-template-columns: repeat(5, 30px);
+    justify-content: space-evenly;
+    filter: grayscale(100%);
+    margin-top: 40px;
+}
+
+
+
+.footer {
+    text-align: center;
+    background-color: rgba(38, 213, 114, 0.404);
+    padding: 30px 70px;
+    margin-top: 100px;
+    margin-left: 16%;
+    margin-right: 16%;
 }
